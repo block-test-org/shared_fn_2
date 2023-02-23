@@ -1,0 +1,13 @@
+{
+  "name": "shared_fn_2",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/block-test-org/shared_fn_2",
+    "ssh": "git@github.com:block-test-org/shared_fn_2.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
